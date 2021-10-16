@@ -22,7 +22,7 @@ namespace SQS.Producer
 
                     var request = new SendMessageRequest
                     {
-                        QueueUrl = "https://sqs.us-east-2.amazonaws.com/713434528261/teste_v1",
+                        QueueUrl = "https://sqs.us-east-2.amazonaws.com/713434528261/teste_sqs",
                         MessageBody = message
                     };
 
